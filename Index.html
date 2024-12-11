@@ -1,0 +1,105 @@
+<html>
+  <head>
+    <title>My Portfolio</title>
+  </head>
+  <link rel="stylesheet" href="index.css">
+  <body>
+    
+    <header>
+      <h1>Harsh Chaurasia</h1>
+      <p>Web developer and Trainer</p>
+    </header>
+    
+    <nav>
+      <ul>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#" onclick="showAdminLogin()">Admin Login</a></li>
+      </ul>
+    </nav>
+    
+    <button id="toggle-theme">Switch Theme</button>
+    
+    <main>
+      
+      <!--Education Section starts here-->
+      
+      <section id="education" class="section">
+        <h2>Education</h2>
+        
+        
+        
+        <div class="edu-item">
+          <h3>Bachelor of Computer Application</h3>
+          <p>B.K Birla College Kalyan , 2023 - 2026</p>
+          </div>
+        
+        <div class="edu-item">
+          <h3>High School, PCM</h3>
+          <p>Arya Gurukul, 2021 - 2023</p>
+          </div>
+          
+      </section>
+      
+      <!--Education section ends here-->
+      
+      <section id="projects" class="section">
+        <h2>Projects</h2>
+        
+        <div class="project-item">
+          <h3>E-Commerce Apparel Website</h3>
+          <p>Developed an E-commerce website with Bootstrap</p>
+          </div>
+        
+        <div class="project-item">
+          <h3>Personal Portfolio</h3>
+          <p>Developed my personal portfolio website using HTML, CSS and JS</p>
+          </div>
+      
+          
+      </section>
+      
+      <!-- Project section ends here-->
+      
+     
+
+      
+     
+      <!-- Experience section ends-->
+      
+      <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+          <input type="text" id="name" placeholder="Your name" required>
+          <input type="email" id="email" placeholder="Your email(GMAIL)" required>
+          <textarea id="message" placeholder="Your message" required></textarea>
+          <div class="contactbtn">
+          <button id="submit">Send</button>
+          </div>
+        </form>
+             
+      </section>
+      
+      <!--Contact section Ends here-->
+      
+      <section id="admin-login" class="section">
+        <h2> Admin Login </h2>
+        <form id="login-form">
+          <input type="text" id="username" placeholder="Username" required>
+          <input type="password" id="password" placeholder="Password" required>
+          <button type="submit">Login</button>
+        </form>
+      </section>
+      
+      <!--Admin Login Section ends here-->
+      <section id="admin-section" class="section">
+        <h2> User Responses </h2>
+        <div id="user-responses"></div> <!-- DIV is a container tag-->
+      </section>
+      <script src="script.js"></script>
+      
+    </main>
+  </body>
+</html>
